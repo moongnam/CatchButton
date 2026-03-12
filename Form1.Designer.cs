@@ -35,12 +35,14 @@
             // 
             Run.BackColor = SystemColors.Desktop;
             Run.Font = new Font("안동엄마까투리", 13.7999992F, FontStyle.Regular, GraphicsUnit.Point, 129);
+            Run.ForeColor = SystemColors.MenuHighlight;
             Run.Location = new Point(510, 243);
             Run.Name = "Run";
             Run.Size = new Size(150, 60);
             Run.TabIndex = 0;
-            Run.Text = "나를 잡아봐";
+            Run.Text = "나를 잡아봐!";
             Run.UseVisualStyleBackColor = false;
+            Run.MouseClick += Run_MouseClick;
             Run.MouseEnter += Run_MouseEnter;
             // 
             // Form1
